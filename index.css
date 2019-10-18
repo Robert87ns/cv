@@ -1,0 +1,61 @@
+hr {
+  color: #979797;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+  position: static;
+}
+
+body {
+  background-color: #ddf796;
+}
+
+img {
+  border-radius: 100%;
+}
+
+h1, h3 {
+  color: #757575;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Lobster', cursive;
+}
+
+h1 {
+  color: #272121;
+}
+
+table {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  text-align: left;
+  margin-left: 20%;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 300%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.coffee {
+  color: #a34a28;
+  font-family: 'Indie Flower', cursive;
+}
+
+.photography {
+  color: #494ca2;
+  font-family: 'Indie Flower', cursive;
+}
